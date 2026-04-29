@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volfram Linux</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #1b1b1b;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            background-color: #333;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 15px 25px;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            color: #1b1b1b;
+        }
+
+        .download-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 25px;
+            background-color: #1b1b1b;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .download-btn:hover {
+            background-color: #333;
+        }
+
+        footer {
+            background-color: #1b1b1b;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: #fff;
+            padding: 20px;
+            flex: 1 1 300px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Volfram Linux</h1>
+        <p>A lightweight and fast Linux distribution</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#download">Download</a>
+        <a href="#community">Community</a>
+    </nav>
+
+    <section id="about">
+        <h2>About the Project</h2>
+        <p>Linux distribution for the x86_64 architecture based on glibc, coreutils, systemd/openrc, bash, lithium.</p>
+    </section>
+
+    <section id="features">
+        <h2>Features</h2>
+        <div class="flex-container">
+            <div class="card">
+                <h3>Lightweight</h3>
+                <p>Minimal resource requirements.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="download">
+        <h2>Download Volfram Linux</h2>
+        <p>Download the latest version of the distribution from GitHub:</p>
+        <a class="download-btn" href="https://github.com/holosuser/volframlinux/releases" target="_blank">Download from GitHub</a>
+    </section>
+
+    <section id="community">
+        <h2>Community</h2>
+        <p>Contribute, and help develop the project!</p>
+        <p>
+            <a href="https://github.com/holosuser/volframlinux" target="_blank">GitHub</a> |
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Volfram Linux. All rights reserved.</p>
+    </footer>
+</body>
+</html>
